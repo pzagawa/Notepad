@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutNoteFilterTabs"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_marginTop="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- TAB1 -->
+	<LinearLayout android:id="@+id/layoutNoteFilterTab1" style="@style/filter_tab">
+	    
+		<TextView style="@style/filter_tab_text" android:text="@string/filter_tab_label_1" />
+
+		<LinearLayout android:id="@+id/layoutNoteFilterTab1_underline"
+		    style="@style/filter_tab_underline" />
+
+	</LinearLayout>
+
+    <!-- TAB2 -->
+	<LinearLayout android:id="@+id/layoutNoteFilterTab2" style="@style/filter_tab">
+	    
+		<TextView style="@style/filter_tab_text" android:text="@string/filter_tab_label_2" />
+	    
+		<LinearLayout android:id="@+id/layoutNoteFilterTab2_underline"
+		    style="@style/filter_tab_underline" />
+
+	</LinearLayout>
+
+	<!-- TAB3 -->
+	<LinearLayout android:id="@+id/layoutNoteFilterTab3" style="@style/filter_tab">
+	    
+		<TextView style="@style/filter_tab_text" android:text="@string/filter_tab_label_3" />
+
+		<LinearLayout android:id="@+id/layoutNoteFilterTab3_underline"
+		    style="@style/filter_tab_underline" />
+
+	</LinearLayout>
+
+</LinearLayout>

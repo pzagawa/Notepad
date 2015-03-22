@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutTab1"
+	android:layout_marginLeft="@dimen/def_border"
+	android:layout_marginRight="@dimen/def_border"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    <!-- CalendarView. use project namespace -->
+    <pl.pzagawa.extended.ui.calendar.CalendarView xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:cal="http://schemas.android.com/apk/res/pl.pzagawa.notepad"
+
+	    android:id="@+id/calendarView"
+	    
+		cal:calendarFixedRowsCount="true"
+	    cal:calendarTitleTextSize="24sp"
+	    cal:calendarDayTextSize="22sp"
+	    
+	    cal:calendarSymbolTextSize="12sp"
+	    cal:calendarSymbolBookmarkSize="8dp"
+	    cal:calendarSymbolDotSize="3.5dp"
+	    cal:calendarItemsVisibilityType="digits"
+
+		cal:calendarControlBarVisible="true"
+	    cal:calendarControlBarHeight="48dp"
+	    cal:calendarControlBarArrowColor="#ffc0c0c0"
+	    cal:calendarControlBarTitleColor="@color/dark_text"
+	    cal:calendarControlBarArrowIconLeft="@drawable/calendar_control_bar_btn_left"
+	    cal:calendarControlBarArrowIconRight="@drawable/calendar_control_bar_btn_right"
+	    
+		cal:calendarDayNamesVisible="true"
+		cal:calendarDayNamesBackground="false"
+		cal:calendarDayNamesHeight="24dp"
+		cal:calendarDayNamesTextColor="@color/day_names_text"
+		cal:calendarDayNamesTextSize="12sp"
+
+		android:background="@color/light_background"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+
+	<!-- bottom container -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/bottomContainer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+		android:background="@color/light_background"
+	    android:orientation="vertical" >
+		    					
+	</LinearLayout>
+	
+</LinearLayout>

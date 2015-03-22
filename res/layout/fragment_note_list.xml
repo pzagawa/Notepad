@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:background="@color/light_background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- HEADER -->
+    <include layout="@layout/note_list_header" />
+
+	<LinearLayout android:background="@color/header_line"
+	    android:layout_width="match_parent"
+	    android:layout_height="1px"
+	    android:orientation="vertical" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="4dp"
+	    android:orientation="vertical" />
+		
+    <!-- LIST -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/layoutNotesList"
+		android:layout_marginLeft="@dimen/def_border"
+		android:layout_marginRight="@dimen/def_border"
+	    android:orientation="vertical"	    
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+		
+	</LinearLayout>
+		
+</LinearLayout>

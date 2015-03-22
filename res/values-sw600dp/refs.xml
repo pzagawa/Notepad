@@ -1,0 +1,3 @@
+<resources>
+    <item type="layout" name="activity_notepad">@layout/activity_multi_pane_port</item>
+</resources>

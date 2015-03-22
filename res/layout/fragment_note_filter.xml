@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:background="@color/light_background"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- TAB SELECTOR -->
+    <include layout="@layout/note_filter_tabs" />
+
+	<LinearLayout android:background="@color/tab_selection"
+	    android:layout_width="match_parent"
+	    android:layout_height="1px"
+	    android:orientation="vertical" />
+
+	<LinearLayout android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="4dp" />
+
+    <ViewAnimator android:id="@+id/filterTabController"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <!-- TAB - BY CREATE DATE -->
+	    <include layout="@layout/fragment_note_filter_tab1" />
+	
+	    <!-- TAB - BY REMIND DATE -->
+	    <include layout="@layout/fragment_note_filter_tab2" />
+	
+	    <!-- TAB - BY TAGS -->
+	    <include layout="@layout/fragment_note_filter_tab3" />
+        
+    </ViewAnimator>
+
+</LinearLayout>

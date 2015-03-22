@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- CalendarView -->
+	<declare-styleable name="CalendarViewAttributes">
+
+	    <attr name="calendarDayTextSize" format="dimension" />
+		<attr name="calendarTitleTextSize" format="dimension" />
+				
+		<attr name="calendarSymbolTextSize" format="dimension" />
+		<attr name="calendarSymbolBookmarkSize" format="dimension" />
+		<attr name="calendarSymbolDotSize" format="dimension" />
+		
+		<attr name="calendarControlBarVisible" format="boolean" />
+		<attr name="calendarControlBarHeight" format="dimension" />
+		<attr name="calendarControlBarArrowColor" format="color" />
+		<attr name="calendarControlBarTitleColor" format="color" />
+		<attr name="calendarControlBarArrowIconLeft" format="integer" />
+		<attr name="calendarControlBarArrowIconRight" format="integer" />
+
+		<attr name="calendarDayNamesVisible" format="boolean" />
+		<attr name="calendarDayNamesHeight" format="dimension" />
+		<attr name="calendarDayNamesTextSize" format="dimension" />
+		<attr name="calendarDayNamesTextColor" format="color" />
+		<attr name="calendarDayNamesBackground" format="boolean" />
+
+		<attr name="calendarFixedRowsCount" format="boolean" />
+				
+		<attr name="calendarItemsVisibilityType">
+			<enum name="none" value="0" />
+			<enum name="dot" value="1" />
+			<enum name="bookmark" value="2" />
+			<enum name="digits" value="3" />
+		</attr>
+
+	</declare-styleable>
+    
+</resources>

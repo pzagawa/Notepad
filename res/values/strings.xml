@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notepad</string>
+
+    <!-- tab labels -->
+    <string name="filter_tab_label_1">ALL</string>
+    <string name="filter_tab_label_2">REMINDERS</string>
+	<string name="filter_tab_label_3">TAGS</string>
+
+    <!-- action bar -->
+	<string name="text_new_note">NEW NOTE</string>
+		
+    <!-- CalendarView -->
+    <string-array name="CalendarViewMonthNames">
+		<item>january</item>
+		<item>february</item>
+		<item>march</item>
+		<item>april</item>
+		<item>may</item>
+		<item>june</item>
+		<item>july</item>
+		<item>august</item>
+		<item>september</item>
+		<item>october</item>
+		<item>november</item>
+		<item>december</item>
+	</string-array>	
+    <string-array name="CalendarViewDayNames">
+        <item>mon</item>
+        <item>tue</item>
+		<item>wed</item>
+		<item>thu</item>
+		<item>fri</item>
+		<item>sat</item>
+		<item>sun</item>				
+	</string-array>
+
+    <!-- note text -->
+	<string name="note_content_title">Note</string>
+
+	<!-- by reminder date filter names -->
+    <string-array name="ByReminderDateFilterItems">
+        <item>OVERDUE</item>
+        <item>TODAY</item>
+		<item>THIS WEEK</item>
+		<item>THIS MONTH</item>
+	</string-array>
+
+	<!-- by tags filter names -->
+    <string-array name="ByTagsFilterItems">
+		<item>PERSONAL</item>
+		<item>HOME</item>
+		<item>WORK</item>
+		<item>TODO</item>
+        <item>STARRED</item>
+        <item>DONE</item>
+	</string-array>    
+
+</resources>
